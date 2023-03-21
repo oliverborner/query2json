@@ -9,6 +9,7 @@ class Rule {
 
 function buildQuery(options) {
     let query = []
+    
 
     if (options.rules?.length) {
 
@@ -22,7 +23,7 @@ function buildQuery(options) {
    
 
     console.log(query)
-
+    const debug = document.getElementById("debug").innerHTML = JSON.stringify(query)
     return query;
 }
 
