@@ -1,8 +1,6 @@
 
 class Rule {
-    static count = 0; 
     constructor(identifier) {
-        this.index = ++this.constructor.count;
         this.identifier = identifier;
     }
 }
